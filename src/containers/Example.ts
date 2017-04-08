@@ -1,9 +1,9 @@
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
+import Example from '../components/Example/Example';
 import * as exampleActions from '../store/example/actions';
 import * as exampleItemsActions from '../store/exampleItems/actions';
-import Example from '../components/Example/Example';
 
 export default connect(
   (state) => ({

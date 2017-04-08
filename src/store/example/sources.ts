@@ -1,7 +1,7 @@
-import Promise from 'bluebird';
+import * as Bluebird from 'bluebird';
 
 export const getExampleText = async () => {
-  await Promise.delay(200);
+  await Bluebird.delay(200);
 
   return 'Sourced Text!';
 };

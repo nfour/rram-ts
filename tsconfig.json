@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir":"./dist",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "es2015", "es2016", "es2017",
+      "dom"
+    ],
+    "jsx": "react"
+  },
+  "exclude": [ "dist" ],
+  "include": [ "src/**/*" ]
+}
